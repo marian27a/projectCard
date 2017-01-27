@@ -1,8 +1,10 @@
-a {
-  color: fff; }
+body {
+  background-color: black;
+  height: 1000px; }
 
-p {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; }
+#nav-top-wrapper {
+  float: left; }
+  #nav-top-wrapper nav {
+    height: 40px; }
+    #nav-top-wrapper nav a {
+      color: black !important; }

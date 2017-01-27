@@ -1,8 +1,15 @@
-$color: fff;
-
-a{
-	color: $color;
+body{
+	background-color: black;
+	height: 1000px;
 }
-p{
-	display: flex;
+
+#nav-top-wrapper{
+	float: left;
+		nav{
+			height: 40px;  
+			a{
+				color: black !important;
+			}
+		
+		}
 }

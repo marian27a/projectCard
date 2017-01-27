@@ -1,5 +1,15 @@
-function feee(){
-	var a = 3;
-	return arguments*arguments*a;
-};
-var str = "hello world";
+;(function($){
+  $(function(){
+
+    $('.parallax').parallax();
+    $(window).on('scroll', function{
+    	var scrollTop = $(window).scrollTop();
+    	console.log(scrollTop);
+    })
+
+    console.log('hellow');
+    alert('hi')
+    
+
+  });
+})(jQuery);
