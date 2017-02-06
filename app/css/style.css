@@ -1,10 +1,52 @@
 body {
-  background-color: black;
+  background-color: white;
   height: 1000px; }
 
 #nav-top-wrapper {
   float: left; }
   #nav-top-wrapper nav {
-    height: 40px; }
+    height: 56px;
+    background-color: rgba(77, 182, 172, 0.9); }
     #nav-top-wrapper nav a {
+      -webkit-border-radius: 10%;
+              border-radius: 10%;
       color: black !important; }
+
+main .parallax-container {
+  height: 680px !important; }
+
+main .img-wrapper {
+  width: 100%;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  height: 300px;
+  width: 300px; }
+
+main #contacts #links li {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: #b2ebf2;
+  float: left;
+  -webkit-border-radius: 50%;
+          border-radius: 50%; }
+  main #contacts #links li img {
+    width: 40px;
+    height: 40px; }
+
+main #contacts #links li:hover {
+  background-color: #26c6da; }
+
+main #contacts h5 {
+  display: inline-block;
+  margin-right: 10px; }
+
+main #contacts .number:before {
+  content: "";
+  display: inline-block;
+  margin-right: 5px;
+  width: 33px;
+  height: 18px;
+  background: url(../img/cont-number.png) no-repeat;
+  vertical-align: middle; }
